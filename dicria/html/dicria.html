@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiCria Camisas de Futebol</title>
+    <link rel="stylesheet" type="text/css" href="/assets/dicria.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/4b1feddd5e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo-cabecalho">
+            <img src="/img/dicria.png" id="logo">
+        </div>
+        <div class="menu-cabecalho">
+            <a href="" class="botao-cabecalho" onclick="clicou()" id="home"><strong>Home</strong></a>
+            <a href="#lancamentos" class="botao-cabecalho" onmousemove="passou()"><strong>Lançamentos</strong></a>
+            <a href="#quem-somos" class="botao-cabecalho" onmousemove="passou()"><strong>Quem Somos</strong></a>
+            <a href="#contato" class="botao-cabecalho" onmousemove="passou()"><strong>Contato</strong></a>
+        </div>
+    </header>
+    <section class="corpo">
+        <div class="principal-corpo">
+            <div class="textos-corpo">
+                <h1 class="texto-principal" style="font-family: 'Bebas Neue';">As Melhores Camisas de Futebol do Brasil<br> e do Mundo!</h1>
+                <button class="botao-principal">Confira nosso catálogo!</button>
+            </div>    
+        </div>
+        <div class="mais-vendidas-corpo">
+            <div class="topico-corpo">
+                <h2 style="font-family: 'Bebas Neue';">Mais Vendidas</h2>
+            </div>
+            <div class="box-camisa">
+                <div class="box1">
+                    <img class="camisas" src="/img/italiaversace.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa Itália x Versace <br>22/23</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>
+                <div class="box1">
+                    <img class="camisas" src="/img/liverpool.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa Liverpool <br>22/23</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>
+                <div class="box1">
+                    <img class="camisas" src="/img/japao.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa Japão <br>2018</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>
+            </div>
+        </div>
+        <div class="lancamentos-corpo">
+            <div class="topico-corpo">
+                <h2 id="lancamentos" style="font-family: 'Bebas Neue';">Novos Lançamentos</h2>
+            </div>
+            <div class="box-camisa">
+                <div class="box2">
+                    <img class="camisas" src="/img/inglaterra.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa inglaterra<br>22/23</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>
+                <div class="box2">
+                    <img class="camisas" src="/img/brasilconcept.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa Brasil Concept<br>22/23</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>
+                <div class="box2">
+                    <img class="camisas" src="/img/china.jpeg"><br>
+                    <a class="titulo-camisa"><strong>Camisa China<br>22/23</strong></a>
+                    <p class="preco">De 149,90 por apenas 129,90</p>
+                </div>   
+            </div>
+        </div>
+        <div class="quem-somos" id="quem-somos">
+            <div class="imagem">
+                <img src="/img/neymar.png" id="img">
+            </div>
+            <div class="conteudo">
+                <h2 class="topico-corpo" style="font-family: 'Bebas Neue';">Quem somos?</h2>
+                <p class="txt">A DiCria Camisas de Time é uma empresa com a finalidade de trazer as melhores camisas de futebol aos seus clientes. Nosso objetivo é proporcionar uma camisa que traga conforto e qualidade aos clientes por um preço acessível a todos. Trabalhamos com camisas tailandesas que tem qualidade de ponta, melhor tecido, composição, tecnologia e conforto.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="container">
+            <form action="">
+                <h2 id="contato">Faça seu cadastro!</h2>
+                <p>Fique por dentro de todas as novidades e lançamentos da DiCria e receba as nossas promoções e descontos em primeira mão. Venha fazer parte do mundo futebolístico com a gente!</p>
+                <div class="email-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="tbox" type="email" placeholder="Digite seu email">
+                    <button class="btn" type="button" name="button">Cadastre-se</button>
+                </div>
+                <p>Confira nossas redes sociais: </p>
+                <div>
+                    <img class="instagram" src="/img/instagram-icon.jpg">
+                    <img class="tiktok" src="/img/tiktok-icon.jpg">
+                    <img class="whatsapp" src="/img/whatsapp-icon.jpg">
+                </div>
+            </form>
+            <div>
+                <p>&copy; 2022 Copyright: Paulo Henrique Lopes</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="dicria.js"></script>
+</body>
+</html>
